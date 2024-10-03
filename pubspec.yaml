@@ -1,0 +1,91 @@
+name: aura
+description: "Aura The Climate Guide"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.2
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+
+  cupertino_icons: ^1.0.8
+  geolocator: ^13.0.1
+  http: ^1.2.2
+  loading_animation_widget: ^1.2.1
+  rflutter_alert: ^2.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^4.0.0
+
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - images/clouds.png
+    - images/heavyRain.png
+    - images/lightRain.png
+    - images/sunny.png
+    - images/aura.png
+    - images/humidity.png
+    - images/wind.png
+    - images/01d.png
+    - images/01n.png
+    - images/02d.png
+    - images/02n.png
+    - images/03d.png
+    - images/04d.png
+    - images/09d.png
+    - images/10d.png
+    - images/10n.png
+    - images/11d.png
+    - images/13d.png
+    - images/50d.png
+    - images/feelsLike.png
+    - images/location.png
+    - images/thunderstorm.png
+    - images/snow.png
+    - images/else.png
+    - images/day.jpg
+    - images/night.jpg
+    - images/activity.png
+    - images/star.png
+    - images/clearSky.png
+
+
+
+
+
+
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/roboto.ttf
+
+    - family: Ubuntu
+      fonts:
+        - asset: fonts/ubuntu.ttf
+
+    - family: UbuntuBold
+      fonts:
+        - asset: fonts/ubuntuBold.ttf
+
+    - family: RobotoBold
+      fonts:
+        - asset: fonts/robotoBold.ttf
+
